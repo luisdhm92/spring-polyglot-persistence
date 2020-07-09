@@ -1,0 +1,16 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+- Add validations to check corner-cases in the service layer
+- Dockerize the application
+
+## [0.1.0]
+### Added
+- Polyglot database model to support the system (Postgres and ElasticSearch)
+- Swagger to document the Rest API
+- Test suites to check the service layer, mappers, and controllers
+- Support for simple text processing using RabbitMQ as message broker
