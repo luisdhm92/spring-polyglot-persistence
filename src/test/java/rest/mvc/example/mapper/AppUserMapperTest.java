@@ -4,6 +4,8 @@ import org.junit.Test;
 import rest.mvc.example.domain.AppUser;
 import rest.mvc.example.model.AppUserDTO;
 
+import static org.junit.Assert.assertEquals;
+
 public class AppUserMapperTest {
 
     public static final String FIRSTNAME = "Jimmy";
